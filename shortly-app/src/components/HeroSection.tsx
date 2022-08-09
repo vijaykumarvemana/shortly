@@ -16,7 +16,7 @@ function HeroSection() {
         <p className="lead">Build your brand's recognition and get detailed 
         insights on how your links are performing</p><br/>
         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" className="btn btn-info text-white fw-bold btn-lg px-5 rounded-pill me-md-2 " >Primary</button>
+          <button type="button" className="btn btn-info text-white fw-bold btn-lg px-5 rounded-pill me-md-2 " >Get started</button>
         </div>
       </div>
     </div>
