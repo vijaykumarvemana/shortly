@@ -8,7 +8,6 @@ function Input() {
  const [link , setLink] = useState('')
 
  const handleInput = (event: ChangeEvent<HTMLInputElement>) => {
-    console.log(event.target.value)
     setLink(event.target.value)
   }
   
