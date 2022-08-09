@@ -15,7 +15,7 @@ function NavBar() {
         </Nav>
         <Nav>
             <Nav.Link href="#deets">
-            <Button  variant="light" className="text-dark rounded-pill fw-bold px/2">Login</Button>
+            <Button  variant="light" className="text-dark rounded-pill fw-bold px-3 bg-white">Login</Button>
             </Nav.Link>
             <Nav.Link >
             <Button variant="info" className="text-white rounded-pill fw-bold ">SignUp</Button>

@@ -19,12 +19,20 @@ body {
 }
 
 .links-foo:hover{
-  color:aquamarine !important;
+  color:#2bd0d0 !important;
 }
 .links-foo1:hover{
-  color:aquamarine !important;
+  color:#2bd0d0!important;
 }
 
 .get-start{
   font-weight: 700 !important;
+}
+.btn{
+  background-color: #2bd0d0 !important;
+  border: none !important;
+}
+.btn:hover{
+  background-color: #15dcdc !important;
+  border: none !important;
 }
