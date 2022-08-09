@@ -1,8 +1,10 @@
-import React from 'react'
+
 import Background from "../assets/bg-boost-desktop.svg"
+
 
 function Footer() {
   return (
+    <>
     <div>
         <div>
     <div className=' d-flex justify-content-center text-light bg-dark' style={{ backgroundImage: `url(${Background})` }}>
@@ -53,6 +55,8 @@ function Footer() {
     </div>
     </div>
     </div>
+    
+    </>
     
   )
 }

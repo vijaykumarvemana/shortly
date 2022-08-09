@@ -1,7 +1,10 @@
 import React from 'react'
+import ShortenLink from './ShortenLink'
 
 function StatisticsCards() {
     return (
+        <>
+        
         <div className='d-flex'>
             <div className=' card bg-white border-0 text-dark position-relative py-4'>
                 <div className="card-body">
@@ -38,6 +41,7 @@ function StatisticsCards() {
             </div>
 
         </div>
+        </>
     )
 }
 
