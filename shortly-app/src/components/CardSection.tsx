@@ -19,7 +19,7 @@ function CardSection() {
         </div>
       </div>
      
-      <div className="col d-flex align-items-start bg-light">
+      {/* <div className="col d-flex align-items-start bg-light">
     
         <div className="icon-square bg-dark text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
           <svg className="bi" width="1em" height="1em"></svg>
@@ -28,16 +28,8 @@ function CardSection() {
           <h2>Featured title</h2>
           <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
         </div>
-      </div>
-      <div className="col d-flex align-items-start">
-        <div className="icon-square bg-dark text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <svg className="bi" width="1em" height="1em"></svg>
-        </div>
-        <div>
-          <h2>Featured title</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-        </div>
-      </div>
+      </div> */}
+      <Card />
     </div>
   </div>
  
