@@ -1,10 +1,20 @@
 import { ChangeEvent, useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
 import Background from "../assets/bg-boost-desktop.svg";
+import { setShortlinks } from "../slices/links";
+import { TStore } from "../store";
+
+
 
 
 
 function Input() {
+
+  const dispatch = useDispatch();
+  const shortenLinks = useSelector((state: TStore)=> state.linksReducer.shortlinks);
+  console.log(shortenLinks);
+
   const [link, setLink] = useState("");
 
   const handleInput = (event: ChangeEvent<HTMLInputElement>) => {
@@ -21,6 +31,8 @@ function Input() {
     );
     const data = await response.json();
     console.log(data);
+    const links = data.result
+    dispatch(setShortlinks({shortlinks: links}));
   };
 
   return (
@@ -53,3 +65,5 @@ function Input() {
 }
 
 export default Input;
+
+
