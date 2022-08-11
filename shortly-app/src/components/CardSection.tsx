@@ -15,8 +15,8 @@ function CardSection() {
     <div className="bg-light ">
     <div className="container  py-5 g-0">
     <div className='py-5'>
-      {
-            shortenLinks ? <ShortenLink  /> : null
+      {     Object.keys(shortenLinks).length === 0 && shortenLinks.constructor === Object
+             ?  null : <ShortenLink { ...shortenLinks} />
       }
     
     <h2 className="pb-2 mt-5 text-center">Advanced Statistics</h2>

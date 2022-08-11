@@ -40,3 +40,7 @@ body {
 .short-link{
   color: #2bd0d0 !important;
 }
+.invalid-feedback {
+  height: 0px !important;
+  margin-top: 0px !important;
+}
