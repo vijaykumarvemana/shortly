@@ -5,7 +5,7 @@ function StatisticsCards() {
   return (
     <>
       <div className="d-flex">
-        <div className=" card bg-white border-0 text-dark position-relative py-4">
+        <div className=" card bg-white border-0 text-dark position-relative py-4 ">
           <div className="card-body">
             <h4 className="card-title fw-bold my-3">Brand Recognition</h4>
             <p className="card-text">
@@ -27,7 +27,7 @@ function StatisticsCards() {
           className="bg-info div-bar"
           style={{ width: "2.5rem", height: ".3rem" }}
         ></div>
-        <div className=" card bg-white border-0 text-dark position-relative py-4">
+        <div className=" card bg-white border-0 text-dark position-relative py-4 ">
           <div className="card-body">
             <h4 className="card-title fw-bold my-3 ">Detailed Records</h4>
             <p className="card-text">

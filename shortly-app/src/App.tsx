@@ -1,13 +1,11 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/NavBar';
-import HeroSection from './components/HeroSection';
-import Input from './components/Input';
-import CardSection from './components/CardSection';
-import Card from './components/Card';
-import Footer from './components/Footer';
-
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./components/NavBar";
+import HeroSection from "./components/HeroSection";
+import Input from "./components/Input";
+import CardSection from "./components/CardSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
