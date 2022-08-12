@@ -23,7 +23,7 @@ function ShortenLink({ ...shortlinks }) {
     <div className=" bg-white d-flex justify-content-between iteams-center text-dark py-3 shorten-links" >
       <p className=" my-2 mx-3 fw-blod links-text">{shortlinks.original_link}</p>
       <hr />
-      <div className="d-flex justify-content-between ">
+      <div className="d-flex justify-content-between button-link ">
         <p className="short-link my-2 mx-3 fw-blod">
           {shortlinks.full_short_link}
         </p>

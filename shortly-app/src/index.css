@@ -170,7 +170,10 @@ body {
   .footer-heading{
     margin: auto !important;
   }
-  
+  .button-link{
+    flex-direction: column !important;
+
+  }
 
 }
 
