@@ -9,8 +9,15 @@ body {
 }
 
 .card-body>p{
-  color: #969699 !important;
+  color: rgb(115 115 115) !important;
+  font-weight: 500 !important;
+  line-height: 26px !important;
 }
+.hero-section-description{
+  color: rgb(115 115 115) !important;
+  font-weight: 600 !important;
+}
+
 
 .div-bar {
   margin-top: 77px;
@@ -58,4 +65,181 @@ body {
 }
 .start-20{
   left: 15%;
+}
+
+.card-section-title{
+  color: rgb(115 115 115) !important;
+  margin-bottom: 2px !important;
+  font-weight: 500 !important;
+}
+
+.card-body{
+  margin-left: 15px !important;
+}
+
+@media (max-width: 768px)  {
+  .cards-section{
+    flex-direction: column !important;
+  }
+  .div-bar{
+    width: 0.5rem !important;
+    margin: auto  !important;
+    height: 6.3rem !important;
+  }
+  .div-bar-2{
+    width: 0.5rem !important;
+    margin: auto  !important;
+    height: 4.3rem !important;
+  }
+  .start-20{
+    left: 50%;
+  }
+
+  .card{
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+  .card-title{
+    text-align: center !important;
+  }
+  .card-body>p{
+    text-align: center !important;
+  }
+  .first-card{
+    margin-top: 10px !important;
+  }
+  .card-section-title{
+    margin-left: 52px !important;
+    margin-right: 52px !important;
+  }
+  .shorten-links{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .short-link{
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  .original-link{
+    flex-direction: column !important;
+    
+    text-overflow: ellipsis !important;
+  }
+
+  .form-div{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-right: auto !important;
+    margin-top: 23px !important;
+  }
+  .input-field-container{
+    height: 18% !important;
+    width: 80% !important;
+    border-radius: 10px !important;
+  }
+  .hero-contents{
+    margin-bottom: 20px !important;
+    text-align: center !important;
+  }
+  .get-started-btn{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .footer-div{
+    flex-direction: column !important;
+  }
+  .footer-links{
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  
+  .nav-link{
+    text-align: center !important;
+    color: #fff !important;
+    background-color: #180925 !important;
+  }
+  .nav-horizontal-line{
+    margin: 0;
+  }
+  .nav{
+    margin-top: 10px !important;
+  }
+
+  .links-text{
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  
+
+}
+
+@media (max-width: 576px)  {
+  .div-bar{
+    width: 0.5rem !important;
+    margin: auto  !important;
+    height: 6.3rem !important;
+  }
+  .div-bar-2{
+    width: 0.5rem !important;
+    margin: auto  !important;
+    height: 4.3rem !important;
+  }
+  .start-20{
+    left: 50%;
+  }
+  .card{
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+  .card-title{
+    text-align: center !important;
+  }
+  .card-body>p{
+    text-align: center !important;
+  }
+  .first-card{
+    margin-top: 10px !important;
+  }
+  .card-section-title{
+    margin-left: 52px !important;
+    margin-right: 52px !important;
+  }
+  .shorten-links{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .short-link{
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  .original-link{
+    flex-direction: column !important;
+    text-overflow: ellipsis !important;
+  }
+  .form-div{
+    display: flex !important;
+    flex-direction: column !important;
+    margin-right: auto !important;
+    margin-top: 23px !important;
+  }
+  .input-field-container{
+    height: 18% !important;
+    width: 80% !important;
+    border-radius: 10px !important;
+  }
+  .hero-contents{
+    margin-bottom: 20px !important;
+    text-align: center !important;
+  }
+  .get-started-btn{
+    margin-left: 20px !important;
+    margin-right: 20px
+
+}
+
 }

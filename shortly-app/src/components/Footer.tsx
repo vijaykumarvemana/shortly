@@ -6,10 +6,10 @@ function Footer() {
       <div>
         <div>
           <div
-            className=" d-flex justify-content-center text-light bg-dark"
+            className=" d-flex justify-content-center text-light bg-dark "
             style={{ backgroundImage: `url(${Background})` }}
           >
-            <div className="d-flex flex-column justify-content-center items-center my-5">
+            <div className="d-flex flex-column justify-content-center items-center my-5 footer-div">
               <h1 className="mb-4">Boost your links today</h1>
               <button
                 type="button"
@@ -19,9 +19,9 @@ function Footer() {
               </button>
             </div>
           </div>
-          <div className="bg-dark py-5">
+          <div className="bg-dark py-5 ">
             <div className="container text-white">
-              <div className="d-flex justify-content-between ">
+              <div className="d-flex justify-content-between footer-links">
                 <h4>shortly</h4>
                 <div className="mt-3">
                   <h6>Features</h6>

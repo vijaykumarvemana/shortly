@@ -4,7 +4,7 @@ import ShortenLink from "./ShortenLink";
 function StatisticsCards() {
   return (
     <>
-      <div className="d-flex mt-5">
+      <div className="d-flex mt-5 cards-section">
         <div className="first-card">
         <div className=" card bg-white border-0 text-dark position-relative py-4 ">
           <div className="card-body">
@@ -35,7 +35,7 @@ function StatisticsCards() {
             <h4 className="card-title fw-bold my-3 ">Detailed Records</h4>
             <p className="card-text">
               Gain insights into who is clicking your links. Knowing when and
-              where people engage with your content helps inform better
+              where people engage with your content  helps inform better
               decisions.
             </p>
           </div>
@@ -50,7 +50,7 @@ function StatisticsCards() {
         </div>
         </div>
         <div
-          className="bg-info div-bar"
+          className="bg-info div-bar div-bar-2"
           style={{ width: "2.5rem", height: ".3rem" }}
         ></div>
         <div className="third-card">

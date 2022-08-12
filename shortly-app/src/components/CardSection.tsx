@@ -5,7 +5,7 @@ function CardSection() {
   const links = localStorage.getItem("shortlinks");
   return (
     <>
-      <div className="bg-light ">
+      <div className="bg-light">
         <div className="container py-5 g-0">
           <div className="py-5">
             {JSON.parse(links || "[]").map(
@@ -17,11 +17,11 @@ function CardSection() {
                 );
               }
             )}
-            <h2 className="pb-2 mt-5 text-center">Advanced Statistics</h2>
-            <p className="text-center">
+            <h2 className="pb-2 mt-5 text-center fw-bold ">Advanced Statistics</h2>
+            <p className="text-center card-section-title">
               Track how your links are performing across the web with
             </p>
-            <p className="text-center">our advanced statistics dashboard.</p>
+            <p className="text-center card-section-title">our advanced statistics dashboard.</p>
           </div>
           <StatisticsCards />
         </div>

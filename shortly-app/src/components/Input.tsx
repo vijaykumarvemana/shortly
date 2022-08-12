@@ -47,18 +47,18 @@ function Input() {
 
   return (
     <Container
-      className="bg-dark style position-absolute top-100 start-50  translate-middle"
+      className="bg-dark style position-absolute top-100 start-50  translate-middle input-field-container"
       style={{ backgroundImage: `url(${Background})` }}
     >
-      <div className=" mx-5">
+      <div className="mx-5">
         <Form
           noValidate
           validated={validated}
-          className="d-flex"
+          className="d-flex form-div"
           onSubmit={handleSubmit}
         >
           <Form.Group
-            className="flex-grow-1 m-auto my-5"
+            className="flex-grow-1 m-auto "
             controlId="formBasicText"
           >
             <Form.Control
