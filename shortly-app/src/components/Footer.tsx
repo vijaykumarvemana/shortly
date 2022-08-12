@@ -10,7 +10,7 @@ function Footer() {
             style={{ backgroundImage: `url(${Background})` }}
           >
             <div className="d-flex flex-column justify-content-center items-center my-5 footer-div">
-              <h1 className="mb-4">Boost your links today</h1>
+              <h1 className="mb-4 footer-heading">Boost your links today</h1>
               <button
                 type="button"
                 className="btn btn-info text-light btn-lg m-auto fw-bloder get-start rounded-pill px-5"

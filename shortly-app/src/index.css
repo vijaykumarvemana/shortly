@@ -113,18 +113,12 @@ body {
     margin-right: 52px !important;
   }
   .shorten-links{
-    display: flex !important;
-    flex-direction: column !important;
+   flex-direction: column !important;
     margin-left: 20px !important;
     margin-right: 20px !important;
   }
   .short-link{
     overflow: hidden !important;
-    text-overflow: ellipsis !important;
-  }
-  .original-link{
-    flex-direction: column !important;
-    
     text-overflow: ellipsis !important;
   }
 
@@ -172,6 +166,10 @@ body {
     overflow: hidden !important;
     text-overflow: ellipsis !important;
   }
+
+  .footer-heading{
+    margin: auto !important;
+  }
   
 
 }
@@ -207,18 +205,9 @@ body {
     margin-left: 52px !important;
     margin-right: 52px !important;
   }
-  .shorten-links{
-    display: flex !important;
-    flex-direction: column !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-  }
+
   .short-link{
     overflow: hidden !important;
-    text-overflow: ellipsis !important;
-  }
-  .original-link{
-    flex-direction: column !important;
     text-overflow: ellipsis !important;
   }
   .form-div{
@@ -241,5 +230,6 @@ body {
     margin-right: 20px
 
 }
+
 
 }

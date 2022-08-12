@@ -7,7 +7,7 @@ function CardSection() {
     <>
       <div className="bg-light">
         <div className="container py-5 g-0">
-          <div className="py-5">
+          <div className="py-5 shorten-likns">
             {JSON.parse(links || "[]").map(
               (link:{}) => {
                 return (
