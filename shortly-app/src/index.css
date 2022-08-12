@@ -8,8 +8,12 @@ body {
   background-color: aquamarine;
 }
 
+.card-body>p{
+  color: #969699 !important;
+}
+
 .div-bar {
-  margin-top: 100px;
+  margin-top: 77px;
 }
 .icon-top {
   transform: translate(-200%, -50%) !important;
@@ -43,3 +47,15 @@ body {
 }
 
 
+.first-card{
+  margin-top: -60px;
+}
+.second-card{
+  margin-top: -20px;
+}
+.third-card{
+  margin-top: 20px;
+}
+.start-20{
+  left: 15%;
+}

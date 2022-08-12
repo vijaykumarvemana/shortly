@@ -1,28 +1,22 @@
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { TStore } from "../store";
 import ShortenLink from "./ShortenLink";
 import StatisticsCards from "./StatisticsCards";
 
 function CardSection() {
-  const shortenLinks = useSelector(
-    (state: TStore) => state.linksReducer.shortlinks
-  );
-  console.log(shortenLinks);
+  const links = localStorage.getItem("shortlinks");
   return (
     <>
       <div className="bg-light ">
-        <div className="container  py-5 g-0">
+        <div className="container py-5 g-0">
           <div className="py-5">
-            {Object.keys(shortenLinks).length === 0 &&
-            shortenLinks.constructor === Object ? null : (
-              <>
-              <ShortenLink {...shortenLinks} />
-              <pre ></pre>
-              <ShortenLink {...shortenLinks} />
-              </>
+            {JSON.parse(links || "[]").map(
+              (link:{}) => {
+                return (
+                  <>
+                    <ShortenLink {...link}/> <pre></pre>
+                  </>
+                );
+              }
             )}
-
             <h2 className="pb-2 mt-5 text-center">Advanced Statistics</h2>
             <p className="text-center">
               Track how your links are performing across the web with

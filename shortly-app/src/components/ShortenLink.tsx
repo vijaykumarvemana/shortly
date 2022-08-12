@@ -1,11 +1,7 @@
-import React, { SyntheticEvent, useState } from "react";
-import { useSelector } from "react-redux";
-import { TStore } from "../store";
+import { useState } from "react";
 
 function ShortenLink({ ...shortlinks }) {
-  console.log(shortlinks);
   const link = shortlinks.full_short_link;
-
   const [isCopied, setIsCopied] = useState(false);
   const handleCopy = () => {
     setIsCopied(true);
@@ -24,7 +20,7 @@ function ShortenLink({ ...shortlinks }) {
   };
 
   return (
-    <div className=" bg-white d-flex justify-content-between iteams-center text-dark py-3 ">
+    <div className=" bg-white d-flex justify-content-between iteams-center text-dark py-3" >
       <p className=" my-2 mx-3 fw-blod">{shortlinks.original_link}</p>
       <div className="d-flex justify-content-between">
         <p className="short-link my-2 mx-3 fw-blod">

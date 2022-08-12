@@ -1,22 +1,12 @@
 import { ChangeEvent, useState } from "react";
-import { Button, Container, Form, Placeholder } from "react-bootstrap";
+import { Button, Container, Form } from "react-bootstrap";
 import isURL from "validator/lib/isURL";
-import { useDispatch, useSelector } from "react-redux";
 import Background from "../assets/bg-boost-desktop.svg";
-import { setShortlinks } from "../slices/links";
-import { TStore } from "../store";
 
 function Input() {
-  const dispatch = useDispatch();
-  const shortenLinks = useSelector(
-    (state: TStore) => state.linksReducer.shortlinks
-  );
-  console.log(shortenLinks);
   const [validated, setValidated] = useState(false);
   const [link, setLink] = useState("");
-
   const handleInput = (event: ChangeEvent<HTMLInputElement>) => {
-    console.log(event.target.value);
     setLink(event.target.value);
     if (isURL(link)) {
       setValidated(false);
@@ -29,7 +19,6 @@ function Input() {
     event.preventDefault();
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
-    
       event.stopPropagation();
     }
     const response = await fetch(
@@ -38,12 +27,19 @@ function Input() {
         method: "GET",
       }
     );
-
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
-      const links = data.result;
-      dispatch(setShortlinks({ shortlinks: links }));
+      const localStorage = window.localStorage;
+      const localStorageContent = localStorage.getItem("shortlinks");
+      let shortlinks;
+      if (localStorageContent === null) {
+        shortlinks = [];
+      } else {
+        shortlinks = JSON.parse(localStorageContent);
+      }
+      shortlinks.push(data.result);
+      localStorage.setItem("shortlinks", JSON.stringify(shortlinks));
+      window.location.reload();
     } else {
       setValidated(true);
     }

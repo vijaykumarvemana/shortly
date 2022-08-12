@@ -4,7 +4,8 @@ import ShortenLink from "./ShortenLink";
 function StatisticsCards() {
   return (
     <>
-      <div className="d-flex">
+      <div className="d-flex mt-5">
+        <div className="first-card">
         <div className=" card bg-white border-0 text-dark position-relative py-4 ">
           <div className="card-body">
             <h4 className="card-title fw-bold my-3">Brand Recognition</h4>
@@ -14,7 +15,7 @@ function StatisticsCards() {
               content.
             </p>
           </div>
-          <span className=" badge bg-dark position-absolute top-0 start-50 translate-middle rounded-circle p-3">
+          <span className=" badge bg-dark position-absolute top-0 start-20 translate-middle rounded-circle p-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
               <path
                 fill="#2BD0D0"
@@ -23,10 +24,12 @@ function StatisticsCards() {
             </svg>
           </span>
         </div>
+        </div>
         <div
           className="bg-info div-bar"
           style={{ width: "2.5rem", height: ".3rem" }}
         ></div>
+        <div className="second-card">
         <div className=" card bg-white border-0 text-dark position-relative py-4 ">
           <div className="card-body">
             <h4 className="card-title fw-bold my-3 ">Detailed Records</h4>
@@ -36,7 +39,7 @@ function StatisticsCards() {
               decisions.
             </p>
           </div>
-          <span className=" badge bg-dark position-absolute top-0 start-50 translate-middle rounded-circle p-3">
+          <span className=" badge bg-dark position-absolute top-0 start-20 translate-middle rounded-circle p-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
               <path
                 fill="#2BD0D0"
@@ -45,10 +48,12 @@ function StatisticsCards() {
             </svg>
           </span>
         </div>
+        </div>
         <div
           className="bg-info div-bar"
           style={{ width: "2.5rem", height: ".3rem" }}
         ></div>
+        <div className="third-card">
         <div className=" card bg-white border-0 text-dark position-relative py-4">
           <div className="card-body">
             <h4 className="card-title fw-bold my-3 ">Fully Customizable</h4>
@@ -57,7 +62,7 @@ function StatisticsCards() {
               customizable links. Supercharging audience engagement.
             </p>
           </div>
-          <span className=" badge bg-dark position-absolute top-0 start-50 icon-top translate-middle rounded-circle p-3">
+          <span className=" badge bg-dark position-absolute top-0 start-20 icon-top translate-middle rounded-circle p-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
               <path
                 fill="#2BD0D0"
@@ -65,6 +70,7 @@ function StatisticsCards() {
               />
             </svg>
           </span>
+        </div>
         </div>
       </div>
     </>
