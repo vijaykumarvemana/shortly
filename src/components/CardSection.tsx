@@ -1,3 +1,4 @@
+import React from "react";
 import ShortenLink from "./ShortenLink";
 import StatisticsCards from "./StatisticsCards";
 

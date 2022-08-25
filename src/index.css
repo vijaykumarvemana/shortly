@@ -133,6 +133,9 @@ body {
     width: 80% !important;
     border-radius: 10px !important;
   }
+  #submit-button{
+    margin-top: 1rem !important;
+  }
   .hero-contents{
     margin-bottom: 20px !important;
     text-align: center !important;
@@ -232,6 +235,9 @@ body {
     margin-left: 20px !important;
     margin-right: 20px
 
+}
+.ishort{
+  margin-left: 2rem !important;
 }
 
 

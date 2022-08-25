@@ -1,3 +1,4 @@
+import React from "react";
 import { ChangeEvent, useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import isURL from "validator/lib/isURL";
@@ -74,7 +75,8 @@ function Input() {
 
           <Button
             variant="info"
-            className="my-5 text-white fw-bold  mx-2"
+            className="my-5 input-button  text-white fw-bold  mx-2 "
+            id="submit-button"
             type="submit"
           >
             Shorten It!

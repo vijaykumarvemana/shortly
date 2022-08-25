@@ -1,3 +1,4 @@
+import React from "react";
 import Background from "../assets/bg-boost-desktop.svg";
 
 function Footer() {
