@@ -41,7 +41,7 @@ function Footer() {
                   </div>
                 </div>
                 <div className="mt-3">
-                  <h6>Compnay</h6>
+                  <h6>Company</h6>
                   <div className="my-3">
                     <p className="links-foo">About</p>
                     <p className="links-foo">Our Team</p>
