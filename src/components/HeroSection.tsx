@@ -8,7 +8,7 @@ function HeroSection() {
       <div className="container col-xxl-8 px-4 py-5 position-relative">
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6  ">
-           <img src={Ishort} alt="Ishort" className="img-fluid ishort" style={{ height: "50%" }}/>
+           <img src={Ishort} alt="Ishort" className="img-fluid ishort" />
           </div>
           <div className="col-lg-6 hero-contents">
             <h1 className="display-5 fw-bold lh-1 mb-2 fw-bolder">
